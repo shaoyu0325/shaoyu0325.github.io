@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/標籤圖片.jpg">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/before.css">
+    <script src="./JS/index.js" defer></script>
+    <title>OSAKA大阪自由行</title>
+
+</head>
+<body>
+    <!----------------------天--------------------------->
+    <header>
+        <div class="logo">
+            <h1>日本大阪</h1>
+            <a href="index.html">
+                <img src="./img/1126733.png" alt="">
+            </a>
+            <h2>自由行!!</h2>
+        </div>
+    </header>
+
+<!----------------------內頁部分1  (天數)--------------------->
+    <div class="topitem1">
+        <ul class="topul1">
+            <a href="before.html"><li class="before">行前準備</li></a>
+            <a href="day1.html"><li class="liday1">第1天<br><p class="day1p">(11/27)</p></li></a>
+            <a href="day2.html"><li class="liday2">第2天<br><p class="day2p">(11/28)</p></li></a>
+            <a href="day3.html"><li class="liday3">第3天<br><p class="day3p">(11/29)</p></li></a>
+        </ul>
+    </div>
+
+    <div class="topitem2">
+        <ul class="topul2">
+            <a href="day4.html"><li class="liday4">第4天<br><p class="day4p">(11/30)</p></li></a>
+            <a href="day5.html"><li class="liday5">第5天<br><p class="day5p">(12/1)</p></li></a>
+            <a href="day6.html"><li class="liday6">第6天<br><p class="day6p">(12/2)</p></li></a>
+            <a href="warming.html"><li class="warming">注意事項</li></a>
+        </ul>
+    </div>
+
+    <!--------------------------虛線------------------------------>
+    <div class="dashed"></div>
+
+<!-----------------------內頁部分2  (成員)--------------------------->
+    
+<!------------------------內頁部分3  (旅行宣誓)------------------------------------->
+   
+<!------------------------內頁部分4  -->
+<div class="slider">
+    <div class="slider-wrapper">
+        <div class="slide"><img src="./img/pexels-marcel-kodama-862588-2297235.jpg" alt="大阪城!!" /></div>
+        <div class="slide"><img src="./img/pexels-haugenzhays-1798631.jpg" alt="道頓堀商店街" /></div>
+        <div class="slide"><img src="./img/pexels-satoshi-2070033.jpg" alt="夜晚的大阪商店街道" /></div>
+        <div class="slide"><img src="./img/pexels-ruiz-2450697.jpg" alt="黑門市場" /></div>
+        <div class="slide"><img src="./img/istockphoto-1383853658-1024x1024.jpg" alt="固力果扛棒" /></div>
+        <div class="slide"><img src="./img/usjcooljapan_a-3230_0.jpg" alt="環球影城的球球" /></div>
+        <div class="slide"><img src="./img/super-nintendo-world.jpg" alt="超級瑪利歐世界" /></div>
+        <div class="slide"><img src="./img/Tsutenkaku-Tower.jpg" alt="通天閣" /></div>
+        <div class="slide"><img src="./img/c5b210b7d0b798c74f23904da6f5bb96e756ff40.jpg.webp" alt="京都三重塔" /></div>
+        <div class="slide"><img src="./img/a2000360_main.webp" alt="京都清水寺" /></div>
+        <div class="slide"><img src="./img/48298026701_b836d7e180_b.jpg.webp" alt="京都清水坂商店街" /></div>
+    </div>
+</div>
+<!----------------------腳----------------------->
+<footer>
+    <div>
+        尾頁
+    </div>
+</footer>
+
+<script>
+    const sliderWrapper = document.querySelector('.slider-wrapper');
+    const slides = document.querySelectorAll('.slide');
+
+    // 複製滑塊以實現無縫滾動效果
+    slides.forEach(slide => {
+        const clone = slide.cloneNode(true);
+        sliderWrapper.appendChild(clone);
+    });
+    </script>
+    
+</body>
+</html>

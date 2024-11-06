@@ -1,0 +1,363 @@
+@import url('reset.css');
+html{
+    font-family: "Varela Round", sans-serif;
+    color: #113044;
+}
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute; /* 絕對定位 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/memphis-colorful.jpg');
+    opacity: 0.5; /* 調整透明度，值範圍 0 到 1 */
+    z-index: -30; /* 確保背景在文字下方 */
+}
+
+/******************天花板*******************/
+header{
+    height: 100px;
+    background-color: #ECDFD3;
+    display: flex;
+    justify-content: center;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.logo h2{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.logo img{
+    height: 100px;
+}
+/* ****************************內頁******************************** */
+/*************天數1******************/
+.topitem1{
+    margin-top: 60px;
+    height: 100px;
+    display: flex;
+}
+.topul1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.topul1 li{
+    background-color: #358faab8;
+    border: 2px solid rgb(47,52,50);
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-direction: column;
+}
+.topul1 a{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(47,52,50);
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+}
+.topul1 .before{
+    font-size: 18px;
+    font-weight: 500;
+}
+.day1p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+.day2p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+.day3p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+/*************天數2******************/
+.topitem2{
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+}
+.topul2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.topul2 li{
+    background-color: #358faab8;
+    border: 2px solid rgb(47,52,50);
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-direction: column;
+}
+.topul2 .warming{
+    font-size: 18px;
+    font-weight: 500;
+}
+.topul2 a{
+    font-size: 28px;
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(47,52,50);
+}
+.day4p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+.day5p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+.day6p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+/*************************虛線*****************************/
+.dashed{
+    margin-top: 60px;
+    border: none; /* 去掉邊框 */
+    background-image: linear-gradient(to right, rgb(60, 60, 60) 50%, transparent 50%); /* 橫向虛線 */
+    background-size: 75px 20px; /* 每條虛線的長度和間隔 */
+    height: 3px; /* 高度可調整 */
+}
+
+
+/****************************內頁2******************************/
+/*************成員******************/
+.member{
+    margin-top: 60px;
+}
+.member h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;           
+}
+.memberul1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding:10px 0;
+    justify-content: space-evenly;
+}
+
+.memberul1 li{
+    border: 2px solid black;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+/****************************************戎妹妹*/
+.zhong{
+    background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 134327.png');
+    /* background-image: url('../img/S__30327029.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/****************************************花栗鼠*/
+.ming{
+    background-image: url('../img/a8014c086e061d950a7b22c49cbf1dd162d9f3d35cb1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/****************************************淇妹*/
+.chi{
+    background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 134416.png');
+    /* background-image: url('../img/S__30327016.jpg'); */
+    /* background-image: url('../img/S__74063883.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.membername1 {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.membername1 p{
+    background-color: rgb(247, 186, 206);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.mingname{
+    text-align: center;
+    width: 100px;   
+}
+.chiname{
+    width: 100px;
+}
+.yangname{
+    width: 100px;
+}
+
+
+.memberul2{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    height: 100px;
+    /* margin-top:20px; */
+    padding:10px 0;
+    justify-content: space-evenly;
+}
+.memberul2 li{
+    border: 2px solid black;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+/****************************************江寶兒*/
+.bo{
+    background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 162946.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/****************************************姊咪*/
+.yang{
+    background-image: url('../img/453095613_7784905971556374_25574106753009932_n.jpg');
+    /* background-image: url('../img/S__37158924.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/****************************************ㄖㄨㄟˋㄖㄨㄟˋ*/
+.ray{
+    background-image: url('../img/1RZXEZp.png');
+    /* background-image: url('../img/S__84410380.jpg'); */
+    /* background-image: url('../img/S__84410387.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.membername2{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.membername2 p{
+    background-color: rgb(164, 205, 249);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.zhongname{
+    width: 100px;}
+.boname{
+    width: 100px;}
+.membername2 .rayname{
+    width: 100px;
+    height: 50px;
+}
+.memberul2{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100px;
+}
+/********************************內頁部分3******************************/
+/***************旅行宣示****************/
+.promise{
+    margin-top: 60px;
+    /* border: 1px solid red; */
+}
+.promise h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.promiseh2{
+    height: 350px;
+    width: 414px;
+    background-image: url('../img/—Pngtree—sticky\ paper\ note_5979583.png');
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+.promiseh2 ul{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+.promiseh2 ul li{
+    list-style-type: disc;
+}
+.promiseh2 h2{
+    color: #af0000;
+    font-weight: 700;
+    margin-top: 31px;
+}

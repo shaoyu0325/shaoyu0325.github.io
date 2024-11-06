@@ -1,0 +1,163 @@
+/*--------------------行程大標h1-------------------------*/
+.h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    background-image: url("../img/25290169.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    /* border: 1px solid red; */
+    position: relative; /* 使容器相對定位 */
+    display: flex; /* 使用 Flexbox */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+.h1::before {
+    content: ""; /* 伪元素 */
+    position: absolute; /* 絕對定位 */
+    top: 0; /* 填滿容器 */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明白色背景 */
+    z-index: 0; /* 在最底層 */
+}
+
+.h1 h1 {
+    position: relative; /* 使 h1 在伪元素之上 */
+    padding-top: 20px;
+    z-index: 1; /* 提升層級 */
+    font-weight: 700;
+    color: rgb(85, 57, 36);
+}
+
+/*--------------時間粗體 改顏色-----------------*/
+.time{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(181, 11, 11);
+    margin-right: 10px;
+}
+.fa-clock{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*-----------------------提示小框框-----------------------*/
+.fa-puzzle-piece{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tip ul{
+    background-color: #cfcfcf;
+    width: 220px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 110px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.tip .li1{
+    margin-bottom: 5px;
+}
+.tip .li2{
+    margin-bottom: 5px;
+}
+.tip li{
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+/*--------------------第一天行程內容------------------------*/
+.ready{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    
+}
+.ready h2{
+    font-size: 20px;
+}
+.gokix{
+    margin-top: 30px;
+
+}
+.planedestination{
+    font-size: 20px;
+}
+.planedestination i {
+    margin-left: 10px;
+}
+.fa-arrow-right{
+    margin-right: 10px;
+}
+.gokix .planedestination{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    text-align: center;
+}
+.fa-goosaka{
+    color: #1a3820;
+    font-size: 28px;
+}
+.airtickets{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/螢幕擷取畫面\ 2024-11-03\ 120031.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: 20px 5px; */
+    border-radius: 10px;
+}
+.airtickets img{
+    width: 370px;
+    border: 2px dashed #FAA836;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+/*---------------去新大阪站---------------*/
+.jrharuka{
+    margin-top: 30px;
+}
+.jrharukap{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.fa-gohotal{
+    margin-left: 10px;
+}
+.jrharuka .tip ul{
+    margin: 10px auto;
+}
+.jrharuka .tip .tipul{
+    width: 260px;
+}
+
+/*------------------新大阪站到飯店------------------------*/
+.gohotal{
+    margin-top: 30px;
+}
+.gohotal p{
+    font-size: 20px;
+    text-align: center;
+}
+.fa-person-walking-luggage{
+    margin-top: 17px;
+    margin-right: 10px;
+    font-size: 28px;
+    color: #0f747c;
+}
+.route{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.gohotal iframe {
+    display: flex;
+    margin: 0 auto;
+}

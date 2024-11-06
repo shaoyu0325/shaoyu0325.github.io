@@ -1,0 +1,30 @@
+@import url('reset.css');
+html{
+    font-family: 'Noto Serif TC', serif;
+}
+
+/******************天花板*******************/
+header{
+
+    height: 60px;
+    
+    background-color: #ECDFD3;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    border: 1px solid red;
+}
+
+.topul li{
+    /* font-size: 15px; */
+    border: 1px solid red;
+}
+
+header ul{
+    
+    display: flex;
+    padding-right: 30px;
+
+}

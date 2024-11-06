@@ -1,0 +1,544 @@
+/*************************虛線*****************************/
+.dashed{
+    margin-top: 60px;
+    border: none; /* 去掉邊框 */
+    background-image: linear-gradient(to right, rgb(60, 60, 60) 50%, transparent 50%); /* 橫向虛線 */
+    background-size: 75px 20px; /* 每條虛線的長度和間隔 */
+    height: 3px; /* 高度可調整 */
+}
+
+/**********************行前準備************************/
+.weather{
+    margin-top: 60px;
+}
+
+/***************************大標題****************************************/
+.weatherh1{
+    /* border: 1px solid red; */
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/**************************中標題**********************************/
+.weather h2{
+    width: 270px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.weatherintroduction{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.weatherintroduction .p1{
+    /* border: 1px solid green; */
+    font-size: 20px;
+    line-height: 1.5;
+}
+.highlight{
+    font-weight: bold;
+    color: red;
+    background-color:rgba(169, 169, 169, 0.608);
+}
+.weatherintroduction .p2{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.8;
+}
+.weatherintroduction .p2 span{
+    color: crimson;
+}
+.weatherintroduction .p3{
+    margin-top: 15px;
+    color: #1d2771;
+
+}
+.weatherintroduction .p4{
+    margin-top: 6px;
+    line-height: 1.6;
+    color: #1d2771;
+}
+
+.arrow{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.arrow i{
+    font-size: 60px;
+    color: #1d2771;
+}
+.arrow .fa-regular{
+    color: #4C837A;
+}
+.outfit{
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    height: 300px;
+    display: flex;
+}
+.outfit1{
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    height: 300px;
+    background-image: url('../img/16-38783.jpg');
+    background-position: -113px; /* 將背景圖片置中 */
+    background-size: cover; /* 確保圖片覆蓋整個區塊 */
+    background-repeat: no-repeat; /* 不重複背景圖片 */
+}
+.outfit2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.outfitright1{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 150px;
+    background-image: url('../img/16-38788.webp');
+    background-position: center; /* 將背景圖片置中 */
+    background-size: cover; /* 確保圖片覆蓋整個區塊 */
+    background-repeat: no-repeat; /* 不重複背景圖片 */
+}
+.outfitright2{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 150px;
+    background-image: url('../img/16-38778.webp');
+    background-position: center; /* 將背景圖片置中 */
+    background-size: cover; /* 確保圖片覆蓋整個區塊 */
+    background-repeat: no-repeat; /* 不重複背景圖片 */
+    border-top: 2px solid black;
+}
+
+.refer{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(171, 40, 17);
+}
+.weatherintroduction2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.weatherintroduction2 h3{
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* *****************內頁虛線********************/
+.dashedinside{
+    margin-top: 30px;
+    border: none; /* 去掉邊框 */
+    background-image: linear-gradient(to right, rgb(60, 60, 60) 50%, transparent 50%); /* 橫向虛線 */
+    background-size: 75px 20px; /* 每條虛線的長度和間隔 */
+    height: 3px; /* 高度可調整 */
+}
+/************************內頁部分3  (行李箱與隨身行李)***************************/
+.bring{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.bring h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.bring h2{
+    width: 270px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.bringcaption p{
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    color:#161d52
+}
+.baggageweight{
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.6;
+    color:rgb(34, 29, 68)
+}
+.weight{
+    background-color: #d2d2d2;
+    color: rgb(255, 56, 56);
+    margin-left: 5px;
+    padding: 0 10px;
+}
+.baggageweight i{
+    margin: 0 5px;
+    font-weight: 700;
+}
+/*-----------物品清單----------------*/
+.checklist{
+    margin-top: 30px;
+    /* border:  1px solid red; */
+    /* display: flex; */
+}
+
+.checklistclothing{
+    background-color:#D5E1DF;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklist h4{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.checklistclothing li{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.checklistclothing li p{
+    /* border: 1px solid red; */
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.1));
+    width: 180px;
+    line-height: 1.6;
+    margin: 10px 30px;
+    padding: 0 10px;
+    color: rgb(120, 120, 120);
+    background-color: #f1f1f1;
+}
+
+/*-----------盥洗用具---------------*/
+.checklisttoilet{
+    background-color:#D5E1DF;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklisttoilet h4{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.checklisttoilet li{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.checklisttoilet li p{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.1));
+    width: 200px;
+    line-height: 1.6;
+    margin: 10px 15px;
+    padding: 0 10px;
+    color: rgb(120, 120, 120);
+    background-color: #f1f1f1;
+}
+.checklisttoilet li p span{
+    color: red;
+    background-color: #c2c2c2;
+    border-radius: 6px;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+/*-----------------ul2保養品------------------*/
+.checklist2{
+    margin-top: 10px;
+}
+.checklist2 h4{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.checklistskincareproducts{
+    background-color:#fff4ea;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklistskincareproducts li{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.blockupanddown{
+    display: flex;
+}
+
+/*------------化妝------------------*/
+.checklistcosmetic{
+    background-color:#fff4ea;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklistcosmetic li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*------卸妝---------*/
+.checklistmakeupremover{
+    background-color:#fff4ea;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklistmakeupremover li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/*-----------------------個人藥品------------------------------*/
+.checklist3{
+    margin-top: 30px;
+}
+.checklist3 h4{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checklistmedicine{
+    background-color:#D5E1DF;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklistmedicine li{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.checklistmedicine li p{
+    /* border: 1px solid red; */
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.1));
+    width: 290px;
+    line-height: 1.6;
+    margin: 15px 0px;
+    /* padding: 0 10px; */
+    color: rgb(120, 120, 120);
+    background-color: #f1f1f1;
+    color: rgb(248, 93, 93);
+}
+
+/*-------------------------其他類--------------------------------*/
+.checklistother{
+    background-color:#D5E1DF;
+    border: 2px solid #808c97;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checklistother li{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+} 
+.checklistother li p{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.1));
+    width: 180px;
+    line-height: 1.6;
+    margin: 10px 30px;
+    padding: 0 10px;
+    color: rgb(120, 120, 120);
+    background-color: #f1f1f1;
+}
+/*-------------自行增加或減少----------------*/
+.listfinal{
+    text-align: center;
+    font-size: 20px;
+    color: #7a80ea;
+    margin-top: 40px;
+}
+.listfinal i{
+    color: #ea7a85;
+}
+
+/*-------------隨身行李--------------*/
+.luggage{
+    margin-top: 80px;
+}
+.luggage h2{
+    width: 270px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.regulationphoto h4{
+    text-align: center;
+    font-size: 26px;
+    background-color: hwb(199 76% 2% / 0.622);
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.regulationul{
+    display: flex;
+    margin-top: 10px;
+}
+
+.specification{
+    margin-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    line-height: 2;
+    border-right: 2px dashed rgb(0, 0, 255);
+}
+.specification li{
+    border-bottom: 2px dashed rgb(0, 0, 255);
+}
+
+.regulationillustrate{
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 2.5;
+}
+.regulationillustrate li{
+    border-bottom: 2px dashed rgb(0, 0, 255);
+}
+/*-------------規定---------------*/
+.regulation{
+    margin-top: 30px;
+}
+.regulation h4{
+    text-align: center;
+    font-size: 28px;
+    background-color: #b0d7b3;
+    padding: 5px 10px;
+    margin-bottom: 90px;
+    width: 70%;
+    margin: auto;
+    border-radius: 6px;
+    filter: drop-shadow(4px 4px 4px rgba(20, 20, 20, 0.3));
+}
+.regulation p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.regulation span{
+    width: 220px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.1));
+    margin-top: 5px;
+    padding: 5px 10px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background-color: #5b5b5b;
+    display: flex;
+    justify-content: center;
+}
+/*--------隨身行李內的物品-----------*/
+.checklistpersonalbelongings{
+    margin-top: 60px;
+}
+.checklistpersonalbelongings h4{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*--------------隨身行李準備物品-------------------*/
+.checklistpersonalbelongings h2{
+    width: 270px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+/*-------------隨身行李準備物品----------------*/
+.checklistpersonalbelongings li{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.checklistpersonalbelongings .li3{
+    background-color: #bcbcbc;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 170px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    margin: 30px auto;
+    color: red;
+    font-size: 60px; 
+}
+.checklistpersonalbelongings .li4{
+    font-size: 40px; 
+ }
+.checklistpersonalbelongings .li5{
+    font-size: 40px; 
+}
+.checklistpersonalbelongings .li6{
+    font-size: 40px; 
+}
+
+

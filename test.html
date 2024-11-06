@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>無縫連續滾動圖片示例</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* 隱藏滾動條 */
+        }
+        .slider {
+            display: flex;
+            overflow: hidden;
+            width: 100vw; /* 容器寬度 */
+            position: relative;
+        }
+        .slider-wrapper {
+            display: flex;
+            animation: scroll 30s linear infinite; /* 滾動時間 */
+        }
+        .slide {
+          width:auto;
+            height: 150px; /* 設定每個滑塊的高度為 80 像素 */
+            display: flex;
+            justify-content: center; /* 垂直居中 */
+            align-items: center; /* 水平居中 */
+        }
+        .slide img {
+            width: auto; /* 自動寬度 */
+            height: 100%; /* 高度填滿容器 */
+            object-fit: cover; /* 讓圖片填滿容器 */
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); } /* 滾動到一半 */
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slide"><img src="./img/S__30327029.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__30327016.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__74063883.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__37158924.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/memphis-colorful.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__37158924.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__30327016.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__84410387.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__30327016.jpg" alt="" /></div>
+            <div class="slide"><img src="./img/S__30327029.jpg" alt="" /></div>
+        </div>
+    </div>
+
+    <script>
+        const sliderWrapper = document.querySelector('.slider-wrapper');
+        const slides = document.querySelectorAll('.slide');
+
+        // 複製滑塊以實現無縫滾動效果
+        slides.forEach(slide => {
+            const clone = slide.cloneNode(true);
+            sliderWrapper.appendChild(clone);
+        });
+    </script>
+</body>
+</html>

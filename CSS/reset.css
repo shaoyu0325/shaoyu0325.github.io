@@ -1,0 +1,91 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	margin: 0;
+}
+.slider {
+	display: flex;
+	overflow: hidden;
+	/* width: 100vw; 容器寬度 */
+	position: relative;
+}
+.slider-wrapper {
+	display: flex;
+	animation: scroll 30s linear infinite; /* 滾動時間 */
+}
+.slide {
+width:auto;
+	height: 250px; /* 設定每個滑塊的高度為 80 像素 */
+	display: flex;
+	justify-content: center; /* 垂直居中 */
+	align-items: center; /* 水平居中 */
+}
+.slide img {
+	width: auto; /* 自動寬度 */
+	height: 100%; /* 高度填滿容器 */
+	object-fit: cover; /* 讓圖片填滿容器 */
+}
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-50%); } /* 滾動到一半 */
+}
+.slider{
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+/*----------------------小虛線---------------------------*/
+.smalldashed{
+    margin-top: 30px;
+    border: none; /* 去掉邊框 */
+    background-image: linear-gradient(to right, rgb(60, 60, 60, 0.3) 50%, transparent 50%); /* 橫向虛線 */
+    background-size: 10px; /* 每條虛線的長度和間隔 */
+    height: 2px;
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
