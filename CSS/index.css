@@ -365,3 +365,18 @@ header{
     font-weight: 700;
     margin-top: 31px;
 }
+/*--------------------頁尾----------------------*/
+footer{
+    background-color: #5a9bcd;
+    height: 80px;
+}
+footer div {
+    display: flex;           
+    align-items: center;     
+    height: 100%;           
+}
+footer div p{
+    font-size: 30px;
+    color: rgb(254, 254, 254);
+    margin-left: 28px;
+}

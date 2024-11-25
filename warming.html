@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/before.css">
+    <link rel="stylesheet" href="CSS/day1.css">
+    <link rel="stylesheet" href="CSS/day2.css">
+    <link rel="stylesheet" href="CSS/warming.css">
     <script src="./JS/index.js" defer></script>
     <title>OSAKA大阪自由行</title>
 
@@ -50,9 +53,19 @@
     <!--------------------------虛線------------------------------>
     <div class="dashed"></div>
 
-<!-----------------------內頁部分2  (成員)--------------------------->
-    
-<!------------------------內頁部分3  (旅行宣誓)------------------------------------->
+<!-----------------------內頁部分2--------------------------->
+<div class="h1">
+    <h1>❗ Warming ❗<br>注意事項</h1>
+</div>
+<h2 class="h2">再次強調</h2>
+<h2 class="redh2"><span class="warmingh2">錢 & 護照</span> </h2>
+<h2 class="redh2">一定要隨身攜帶<br>並且收好</h2>\
+<h2 class="h2">再來就是</h2>
+<h2 class="h2">帶著一顆快樂的心</h2>
+<h2 class="h2">以及 隨時耍賤的心態</h2>
+<h2 class="h2">好好地玩耍吧 ❗</h2>
+<h4 class="h4">想要炫 ??</h4>
+<h5 class="h5">就要賤 !!</h5>
    
 <!------------------------內頁部分4  -->
 <div class="slider">
@@ -70,23 +83,16 @@
         <div class="slide"><img src="./img/48298026701_b836d7e180_b.jpg.webp" alt="京都清水坂商店街" /></div>
     </div>
 </div>
+
+<!-----------------------------回頂部按鈕------------------------------->
+    <button class="back-to-top" id="backToTopBtn">回到頂部</button>
+
 <!----------------------腳----------------------->
 <footer>
     <div>
-        尾頁
+        <p>想要炫 ? 就要賤 !</p>
     </div>
 </footer>
 
-<script>
-    const sliderWrapper = document.querySelector('.slider-wrapper');
-    const slides = document.querySelectorAll('.slide');
-
-    // 複製滑塊以實現無縫滾動效果
-    slides.forEach(slide => {
-        const clone = slide.cloneNode(true);
-        sliderWrapper.appendChild(clone);
-    });
-    </script>
-    
 </body>
 </html>

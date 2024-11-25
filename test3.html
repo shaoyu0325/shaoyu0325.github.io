@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>進階回到頂部按鈕</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    /* 設定頁面內容高度以便滾動 */
+    .content {
+      height: 1500px;
+      padding: 20px;
+    }
+
+    /* 設定回到頂部按鈕樣式 */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      opacity: 0;  /* 初始時隱藏按鈕（透明度為0） */
+      pointer-events: none;  /* 使按鈕不可點擊 */
+      transition: opacity 0.3s ease, transform 0.3s ease;  /* 設置過渡效果 */
+      transform: translateY(20px);  /* 初始位置稍微向下 */
+    }
+
+    .back-to-top.show {
+      opacity: 1;
+      pointer-events: auto;  /* 顯示時可以點擊 */
+      transform: translateY(0);  /* 按鈕滑動回來 */
+    }
+
+    .back-to-top:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 頁面內容 -->
+  <div class="content">
+    <h1>這是頁面內容</h1>
+    <p>這是一段示範文字，頁面高度設置得很大，您可以滾動頁面來查看按鈕。</p>
+    <p>更多內容...</p>
+  </div>
+
+  <!-- 回到頂部按鈕 -->
+  <button class="back-to-top" id="backToTopBtn">回到頂部</button>
+
+  <script>
+    // 獲取回到頂部按鈕
+    const backToTopBtn = document.getElementById("backToTopBtn");
+
+    // 當用戶滾動頁面時顯示或隱藏按鈕
+    window.onscroll = function() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopBtn.classList.add('show');  // 顯示按鈕
+      } else {
+        backToTopBtn.classList.remove('show');  // 隱藏按鈕
+      }
+    };
+
+    // 點擊按鈕時平滑捲動到頁面頂部
+    backToTopBtn.onclick = function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'  // 平滑捲動
+      });
+    };
+  </script>
+
+</body>
+</html>

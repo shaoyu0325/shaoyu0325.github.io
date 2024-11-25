@@ -52,8 +52,8 @@ header ul{
     color: rgb(101, 101, 101); 
 }
 /*---------------------起床時間----------------------*/
-.wakeuptime{
-    width: 270px;
+.wakeuptime h1{
+    width: 200px;
     font-size: 28px;
     font-weight: 500;
     background-color: #296799;
@@ -67,3 +67,335 @@ header ul{
     border-radius: 2px 10px 10px 2px ;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
 }
+.wakeuptime h2{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.wakeuptime p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 0;
+}
+/***************************搭車**************************/
+.distance h1{
+    width: 140px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.distance h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(106, 110, 0);
+    line-height: 1.2;
+}
+.distance h6{
+    text-align: center;
+}
+.distance h3{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 24px;
+    border: 3px solid rgb(48, 149, 48);
+    background-color: rgba(191, 233, 191, 0.527);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    width: 243px;
+    padding: 10px;
+}
+.distance .transfertwice{
+    margin-top: 80px;
+}
+/*--------------方式1-------------------*/
+.thefirsttype{
+    margin-top: 20px;
+}
+.thefirsttypeimg1{
+    width: 90%;
+    display: flex;
+    margin: 10px auto 0 auto;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    border: 2px dashed black;
+}
+.thefirsttypeimg2{
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    border: 2px dashed black;
+}
+.thefirsttype ul{
+    margin-top: 50px;
+}
+.thefirsttype ul li{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.thefirsttype ul .fa-arrow-down{
+    font-size: 22px;
+    margin: 0 10px;
+    color: rgb(232, 145, 90);
+}
+.thefirsttype ul p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.stationname{
+    background-color: #d1d1d1;
+    color: rgb(10, 68, 149);
+    padding: 3px 5px;
+    margin: 0 6px 0 3px;
+    border-radius: 10px;
+    font-weight: 700;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.scarletletter{
+    color: rgb(221, 79, 79);
+    margin: 0 2px;
+    font-weight: 700;
+}
+.moreimg{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.moreimgh6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*----------------方式2---------------------*/
+.thesecondtypeimg1{
+    width: 90%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    border: 2px dashed black;
+}
+.thesecondtypeimg2{
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    border: 2px dashed black;
+}
+.thesecondtype h5{
+    margin-left: 20px;
+    line-height: 1.6;
+}
+.thesecondtypeh5{
+    margin-top: 20px;
+}
+.thesecondtype ul{
+    margin-top: 50px;
+}
+.thesecondtype ul li{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.thesecondtype ul .fa-arrow-down{
+    font-size: 22px;
+    margin: 0 10px;
+    color: rgb(232, 145, 90);
+}
+.thesecondtype ul p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.moreimg1{
+    margin-top: 20px;
+}
+.moreimg1 p{
+    line-height: 1.6;
+}
+/*--------------------抵達環球影城----------------------*/
+.arrival{
+    margin-top: 240px;
+}
+.arrival h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 1.6;
+    font-weight: 700;
+}
+.arrival img{
+    margin-top: 240px;
+}
+.change-text-color {
+    font-size: 3rem;  /* 設定字體大小，可以根據需要調整 */
+    font-weight: bold;
+    transition: color 1s ease;  /* 設置顏色過渡效果 */
+}
+.arrival h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+/*-----------------環球攻略------------------*/
+.strategy h1{
+    width: 200px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.strategy h2{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(37, 28, 102);
+    line-height: 1.6;
+}
+.strategy h3{
+    text-align: center;
+}
+.nintendomap{
+    width: 90%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    border: 2px dashed black;
+}
+.strategy .moreimgh6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.strategy h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(25, 93, 6);
+}
+/*--------------------------注意事項----------------------------------*/
+.usjthingstonote h1{
+    width: 150px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.usjthingstonote ul li{
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #296799;
+}
+.usjthingstonote .specialattention{
+    background-color: #d1d1d1;
+    color: rgb(252, 99, 99);
+    padding: 5px 10px;
+    display: inline-block; 
+    border-radius: 6px;
+    font-weight: 700;
+}
+/*-------------------------退稅-------------------------------*/
+.taxrefund h1{
+    width: 110px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.taxrefund h2{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(34, 28, 79);
+}
+.taxrefund ul{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.taxrefund ul li{
+    font-size: 18px;
+    list-style-type: disc;
+    margin-top: 20px;
+
+}
+.taxrefund ul p{
+    margin-left: 10px;
+    line-height: 1.4;
+    color: rgb(101, 120, 124);
+}
+.taxrefund ul .redword{
+    background-color: #c0c0c0;
+    padding: 2px 5px;
+    border-radius: 6px;
+    color: rgb(234, 71, 31);
+}
+
+/*----------------------更多照片---------------------------*/
+.stills{
+    margin-top: 30px;
+}
+.stills h2{
+    text-align: center;
+    color: rgb(50, 103, 103);
+    font-size: 18px;
+}
+/*--------------------結束--------------------------*/
+.usjover h1{
+    width: 125px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #296799;
+    margin: 30px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    color: aliceblue;
+    border-left: 10px solid rgb(198, 198, 198);
+    border-radius: 2px 10px 10px 2px ;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.usjover h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.8;
+}
+/*---------------footer--------------*/
+

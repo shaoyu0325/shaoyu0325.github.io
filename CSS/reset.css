@@ -60,7 +60,7 @@ body {
 	animation: scroll 30s linear infinite; /* 滾動時間 */
 }
 .slide {
-width:auto;
+	width: auto;
 	height: 250px; /* 設定每個滑塊的高度為 80 像素 */
 	display: flex;
 	justify-content: center; /* 垂直居中 */
@@ -77,7 +77,7 @@ width:auto;
 }
 .slider{
 	margin-top: 60px;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }
 /*----------------------小虛線---------------------------*/
 .smalldashed{
@@ -89,3 +89,32 @@ width:auto;
     width: 90%;
     margin: 30px auto 0 auto;
 }
+/*---------------------回頂部 按鈕-------------------------*/
+.back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	opacity: 0;  /* 初始時隱藏按鈕（透明度為0） */
+	pointer-events: none;  /* 使按鈕不可點擊 */
+	transition: opacity 0.3s ease, transform 0.3s ease;  /* 設置過渡效果 */
+	transform: translateY(20px);  /* 初始位置稍微向下 */
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+	z-index: 5;
+  }
+
+  .back-to-top.show {
+	opacity: 1;
+	pointer-events: auto;  /* 顯示時可以點擊 */
+	transform: translateY(0);  /* 按鈕滑動回來 */
+  }
+
+  .back-to-top:hover {
+	background-color: #0056b3;
+  }
