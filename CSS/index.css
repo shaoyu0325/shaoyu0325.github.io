@@ -213,8 +213,8 @@ header{
 }
 /****************************************戎妹妹*/
 .zhong{
-    background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 134327.png');
-    /* background-image: url('../img/S__30327029.jpg'); */
+    /* background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 134327.png'); */
+    background-image: url('../img/S__30327029.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,9 +228,9 @@ header{
 }
 /****************************************淇妹*/
 .chi{
-    background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 134416.png');
+    /* background-image: url('../img/螢幕擷取畫面\ 2024-10-12\ 134416.png'); */
     /* background-image: url('../img/S__30327016.jpg'); */
-    /* background-image: url('../img/S__74063883.jpg'); */
+    background-image: url('../img/S__74063883.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,17 +288,17 @@ header{
 }
 /****************************************姊咪*/
 .yang{
-    background-image: url('../img/453095613_7784905971556374_25574106753009932_n.jpg');
-    /* background-image: url('../img/S__37158924.jpg'); */
+    /* background-image: url('../img/453095613_7784905971556374_25574106753009932_n.jpg'); */
+    background-image: url('../img/S__37158924.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 /****************************************ㄖㄨㄟˋㄖㄨㄟˋ*/
 .ray{
-    background-image: url('../img/1RZXEZp.png');
+    /* background-image: url('../img/1RZXEZp.png'); */
     /* background-image: url('../img/S__84410380.jpg'); */
-    /* background-image: url('../img/S__84410387.jpg'); */
+    background-image: url('../img/S__84410387.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
