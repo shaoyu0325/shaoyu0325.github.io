@@ -295,6 +295,12 @@ header{
     background-repeat: no-repeat;
 }
 /****************************************ㄖㄨㄟˋㄖㄨㄟˋ*/
+.MAO{
+    background-image: url('../img/1RZXEZp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .ray{
     /* background-image: url('../img/1RZXEZp.png'); */
     /* background-image: url('../img/S__84410380.jpg'); */
@@ -332,6 +338,15 @@ header{
     display: flex;
     height: 100px;
 }
+.newmember{
+    margin-top: 30px;
+}
+.newmember h1{
+    color: #7d00af;
+    font-size: 23px;
+    text-align: center;
+}
+
 /********************************內頁部分3******************************/
 /***************旅行宣示****************/
 .promise{
